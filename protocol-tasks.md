@@ -28,9 +28,10 @@
 - **Target**: < seconds
 - **Linked to**: Week 6 Job Story #4 ("Editing tasks to correct spelling")
 
-## Task 5: Add task with Tab
-- **Scenario**: Mouse is broken and user wants to "Buy milk"
-- **Action**: Add task with title "Buy milk" by scrolling page with tab
-- **Success**: Add task box has highlight around it, user enters task without use of mouse, task appears in list, no errors
+## Task 5: Filter tasks by 'buy'
+- **Scenario**: User does not want to waste time checking through all tasks and only wants to check tasks with the word
+                'buy' so they can create a shopping list
+- **Action**: Filter all tasks by typing the word 'buy' into the filter box
+- **Success**: Only tasks with the word 'buy' should appear in the list, no errors
 - **Target**: < seconds
-- **Linked to**: Week 6 Job Story #5 ("Navigate with Tab")
+- **Linked to**: Week 6 Job Story #5 ("Filter tasks by 'buy'")

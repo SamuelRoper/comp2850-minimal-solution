@@ -22,8 +22,8 @@ I want to to be able to edit them,
 so I can correct any spelling mistakes,
 because I make a lot of spelling errors and it is hard to read.
 
-Job Story #5:
-When [situation/context],
-I want to [motivation/goal],
-so I can [desired outcome],
-because [underlying need/constraint].
+Job Story #5 ("Filter tasks by 'buy'"):
+When I am about to go shopping,
+I want to filter my tasks by the word 'buy',
+so I can create a shopping list from all the things I must buy,
+because I am in a rush and do not want to check through each individual task.
