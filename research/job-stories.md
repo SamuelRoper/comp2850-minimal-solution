@@ -16,11 +16,11 @@ I want to hear all the tasks as I iterate through the list,
 so I can remember which tasks need to be completed,
 because I am blind.
 
-Job Story #4:
-When [situation/context],
-I want to [motivation/goal],
-so I can [desired outcome],
-because [underlying need/constraint].
+Job Story #4 ("Editing tasks to correct spelling"):
+When I am writing tasks for myself and others,
+I want to to be able to edit them,
+so I can correct any spelling mistakes,
+because I make a lot of spelling errors and it is hard to read.
 
 Job Story #5:
 When [situation/context],
