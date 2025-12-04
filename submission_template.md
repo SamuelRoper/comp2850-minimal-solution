@@ -128,8 +128,8 @@ because I am in a rush and do not want to check through each individual task.
 -   "I may take screenshots and notes. I'll remove any identifying information."
 -   "Do you consent to participate?" \[Wait for verbal yes\]
 
-**Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
-**Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
+**Recorded consent timestamp**: \[e.g., "P1_0001 consented 04/12/2025 17:33"\]
+**Recorded consent timestamp**: \[e.g., "P2_0002 consented 04/12/2025 18:05"\]
 **Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
 **Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
 **Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
@@ -173,8 +173,64 @@ because I am in a rush and do not want to check through each individual task.
 
 ``` csv
 ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
-2025-11-22T14:18:23.456Z,P1_a7f3,req_001,T1_add,success,,890,200,on
-[Your metrics data here - all rows from Logger.kt output]
+2025-12-04T17:36:57.298516317Z,p1_0001,r_dcd6feb9,T0_list,success,,14,200,off
+2025-12-04T17:37:23.599451664Z,p1_0001,r_3ed19450,T3_add,success,,20,200,on
+2025-12-04T17:38:00.712219905Z,p1_0001,r_38aef5f4,T4_delete,success,,2,200,on
+2025-12-04T17:38:04.351733944Z,p1_0001,r_9962a810,T4_delete,success,,2,200,on
+2025-12-04T17:38:32.629321603Z,p1_0001,r_b8466993,T3_add,success,,5,200,on
+2025-12-04T17:38:39.509290871Z,p1_0001,r_6ad6d39b,T3_add,success,,15,200,on
+2025-12-04T17:38:56.483521067Z,p1_0001,r_5573762c,T3_add,success,,11,200,on
+2025-12-04T17:39:50.965894524Z,p1_0001,r_494d8820,T0_list,success,,32,200,off
+2025-12-04T17:40:05.945323399Z,p1_0001,r_4d9e5256,T0_list,success,,9,200,off
+2025-12-04T17:40:22.575654533Z,p1_0001,r_7fcd10e4,T4_delete,success,,4,200,on
+2025-12-04T17:41:37.813811079Z,p1_0001,r_8c8343c8,T4_delete,success,,1,200,on
+2025-12-04T17:41:41.914734289Z,p1_0001,r_4109e37e,T4_delete,success,,4,200,on
+2025-12-04T17:41:57.060488071Z,p1_0001,r_08cd33ef,T3_add,success,,6,200,on
+2025-12-04T17:42:03.670021857Z,p1_0001,r_17aecc1f,T3_add,success,,5,200,on
+2025-12-04T17:42:14.945405782Z,p1_0001,r_51c38e78,T3_add,success,,5,200,on
+2025-12-04T17:42:22.473614451Z,p1_0001,r_8ad7ef32,T3_add,success,,8,200,on
+2025-12-04T17:43:05.488675808Z,p1_0001,r_b6b52777,T0_list,success,,6,200,off
+2025-12-04T17:47:02.692073602Z,p1_0001,r_10b91310,T4_delete,success,,2,200,on
+2025-12-04T17:47:41.353024282Z,p1_0001,r_fd5566ff,T4_delete,success,,3,200,on
+2025-12-04T17:47:42.963376502Z,p1_0001,r_b798b3f9,T4_delete,success,,2,200,on
+2025-12-04T17:47:44.970646766Z,p1_0001,r_ceec78ff,T4_delete,success,,2,200,on
+2025-12-04T17:48:17.760707563Z,p1_0001,r_da63f23a,T3_add,success,,6,200,on
+2025-12-04T17:48:26.293314615Z,p1_0001,r_09f375cb,T3_add,success,,5,200,on
+2025-12-04T17:48:40.349443557Z,p1_0001,r_d2b096d3,T3_add,success,,7,200,on
+2025-12-04T17:48:47.009433046Z,p1_0001,r_872849f3,T0_list,success,,7,200,off
+2025-12-04T17:50:59.705052054Z,p1_0001,r_36a384f9,T3_add,success,,5,200,on
+2025-12-04T17:51:08.910645837Z,p1_0001,r_0a5d03c2,T3_add,success,,9,200,on
+2025-12-04T17:51:15.475442353Z,p1_0001,r_2bd80653,T3_add,success,,6,200,on
+2025-12-04T17:51:20.859834688Z,p1_0001,r_489f8dd7,T0_list,success,,6,200,off
+2025-12-04T17:51:45.232696085Z,p1_0001,r_878b868a,T1_filter,success,,13,200,on
+2025-12-04T17:51:47.185640791Z,p1_0001,r_020a3d2e,T1_filter,success,,3,200,on
+2025-12-04T18:06:10.458467638Z,p2_0002,r_65a15a09,T3_add,success,,3,200,on
+2025-12-04T18:06:53.683686576Z,p2_0002,r_23376fca,T3_add,success,,3,200,on
+2025-12-04T18:07:02.621170172Z,p2_0002,r_53bd1493,T3_add,success,,4,200,on
+2025-12-04T18:07:13.663015071Z,p2_0002,r_69ca9fbd,T1_filter,success,,1,200,off
+2025-12-04T18:07:15.516324920Z,p2_0002,r_ed2f73a3,T0_list,success,,5,200,off
+2025-12-04T18:08:46.492787171Z,p2_0002,r_08bbbcf6,T4_delete,success,,1,200,on
+2025-12-04T18:09:12.995458611Z,p2_0002,r_99bfc891,T4_delete,success,,1,200,on
+2025-12-04T18:09:15.079341294Z,p2_0002,r_cfb29910,T4_delete,success,,1,200,on
+2025-12-04T18:09:25.424626065Z,p2_0002,r_6e6463da,T3_add,success,,3,200,on
+2025-12-04T18:09:31.546391542Z,p2_0002,r_744e8294,T3_add,success,,10,200,on
+2025-12-04T18:09:46.704430720Z,p2_0002,r_0dd6c641,T3_add,success,,5,200,on
+2025-12-04T18:09:54.510236401Z,p2_0002,r_82897d69,T3_add,success,,4,200,on
+2025-12-04T18:12:56.394337735Z,p2_0002,r_8d2a23d5,T4_delete,success,,1,200,on
+2025-12-04T18:13:53.599440879Z,p2_0002,r_197f8d5d,T4_delete,success,,2,200,on
+2025-12-04T18:13:55.710599629Z,p2_0002,r_e275a72c,T4_delete,success,,2,200,on
+2025-12-04T18:13:57.209597982Z,p2_0002,r_f5f4260e,T4_delete,success,,1,200,on
+2025-12-04T18:14:17.190507325Z,p2_0002,r_a4f2544e,T3_add,success,,6,200,on
+2025-12-04T18:14:26.517900287Z,p2_0002,r_a8701f05,T3_add,success,,3,200,on
+2025-12-04T18:14:39.020331292Z,p2_0002,r_31d81796,T3_add,success,,4,200,on
+2025-12-04T18:16:38.778995533Z,p2_0002,r_b536e8e9,T3_add,success,,3,200,on
+2025-12-04T18:16:46.070440779Z,p2_0002,r_71e62d47,T3_add,success,,14,200,on
+2025-12-04T18:16:55.839913150Z,p2_0002,r_d0d64f5b,T3_add,success,,4,200,on
+2025-12-04T18:17:02.645796482Z,p2_0002,r_5aebe2f0,T3_add,success,,8,200,on
+2025-12-04T18:17:14.246659593Z,p2_0002,r_b6ce45b9,T3_add,success,,4,200,on
+2025-12-04T18:17:35.687345494Z,p2_0002,r_b8dafcc1,T1_filter,success,,3,200,on
+2025-12-04T18:17:36.264263926Z,p2_0002,r_10b34a61,T1_filter,success,,3,200,on
+
 ```
 
 **Participant summary**:
