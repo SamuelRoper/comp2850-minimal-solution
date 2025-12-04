@@ -1,4 +1,4 @@
-**Student**: \[Samuel J. Roper 201835172\] **Submission date**: \[DD/MM/YYYY\] **Academic Year**: 2025-26
+**Student**: Samuel J. Roper 201835172 **Submission date**: \[DD/MM/YYYY\] **Academic Year**: 2025-26
 
 ------------------------------------------------------------------------
 
@@ -71,31 +71,49 @@ because I am in a rush and do not want to check through each individual task.
 
 ### [Evaluation Tasks (4-5 tasks)](#evaluation-tasks-4-5-tasks){.header}
 
-#### [Task 1 (T1): \[Task Name\]](#task-1-t1-task-name){.header}
+#### [Task 1 (T1): Add task with Tab](#task-1-t1-task-name){.header}
 
--   **Scenario**: \[Brief context - what person needs to do\]
--   **Action**: \[Specific instruction - what to tell participant\]
--   **Success**: \[Observable outcome - how you know it worked\]
--   **Target time**: \[Your expert time × 2, e.g., 4s × 2 = 8-10s --- see [target times guidance](./combined-assessment-FINAL.html#setting-target-times-for-tasks)\]
--   **Linked to**: \[Week 6 Job Story #X\]
+-   **Scenario**: Mouse is broken and user wants to "Buy milk"
+-   **Action**: Add task with title "Buy milk" by scrolling page with tab
+-   **Success**: Add task box has highlight around it, user enters task without use of mouse, task appears in list, no errors
+-   **Target**: 20 seconds
+-   **Linked to**: Week 6 Job Story #1 ("Navigate with Tab")
 
-#### [Task 2 (T2): \[Task Name\]](#task-2-t2-task-name){.header}
+#### [Task 2 (T2): Delete tasks with impaired vision](#task-2-t2-task-name){.header}
 
--   **Scenario**:
--   **Action**:
--   **Success**:
--   **Target time**: \[Your expert time × 2 --- see [target times guidance](./combined-assessment-FINAL.html#setting-target-times-for-tasks)\]
--   **Linked to**:
+-   **Scenario**: User (wearing 4 pairs of sunglasses) has multiple tasks- consisting of "Buy milk", "Buy eggs" and "Drink milk"- and they want to delete
+                just 1 of these tasks
+-   **Action**: Delete task "Buy milk"
+-   **Success**: Only the task "Buy milk" is removed from list, no errors
+-   **Target**: 90 seconds
+-   **Linked to**: Week 6 Job Story #2 ("Delete with impaired vision")
 
-#### [Task 3 (T3): \[Task Name\]](#task-3-t3-task-name){.header}
+#### [Task 3 (T3): Read tasks with screen reader](#task-3-t3-task-name){.header}
 
--   **Scenario**:
--   **Action**:
--   **Success**:
--   **Target time**: \[Your expert time × 2 --- see [target times guidance](./combined-assessment-FINAL.html#setting-target-times-for-tasks)\]
--   **Linked to**:
+-   **Scenario**: User is blind and wishes to check tasks- consisting of "Feed fish", "Eat fish", "Buy new fish", "Buy milk"
+-   **Action**: Iterate through all tasks and delete task "Buy milk"
+-   **Success**: Only task "Buy milk" is removed, no errors
+-   **Target**: 110 seconds
+-   **Linked to**: Week 6 Job Story #3 ("Read task with screen reader")
 
-\[Add Tasks 4-5 as needed\]
+#### [Task 4 (T4): Edit task](#task-4-t4-task-name){.header}
+
+-   **Scenario**: User misspelled 3 tasks which say- "bouy melk"(should be "Buy milk"), "Fiid Cot"( should be "Feed cat")
+                and "Drenk Malk"( Should be "Drink milk")
+-   **Action**: Edit each task to fix spelling errors
+-   **Success**: Corrected tasks appear in list, no errors
+-   **Target**: 98 seconds
+-   **Linked to**: Week 6 Job Story #4 ("Editing tasks to correct spelling")
+
+#### [Task 5 (T5): Filter tasks by 'buy'](#task-5-t5-task-name){.header}
+
+-   **Scenario**: User does not want to waste time checking through all tasks and only wants to check tasks with the word
+                'buy' so they can create a shopping list
+-   **Action**: Filter all tasks by typing the word 'buy' into the filter box
+-   **Success**: Only tasks with the word 'buy' should appear in the list, no errors
+-   **Target**: 24 seconds
+-   **Linked to**: Week 6 Job Story #5 ("Filter tasks by 'buy'")
+
 
 ------------------------------------------------------------------------
 
@@ -110,6 +128,10 @@ because I am in a rush and do not want to check through each individual task.
 -   "I may take screenshots and notes. I'll remove any identifying information."
 -   "Do you consent to participate?" \[Wait for verbal yes\]
 
+**Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
+**Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
+**Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
+**Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
 **Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
 
 ------------------------------------------------------------------------
