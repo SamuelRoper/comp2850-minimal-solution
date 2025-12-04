@@ -130,7 +130,7 @@ because I am in a rush and do not want to check through each individual task.
 
 **Recorded consent timestamp**: \[e.g., "P1_0001 consented 04/12/2025 17:33"\]
 **Recorded consent timestamp**: \[e.g., "P2_0002 consented 04/12/2025 18:05"\]
-**Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
+**Recorded consent timestamp**: \[e.g., "P3_0003 consented 22/11/2025 18:46"\]
 **Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
 **Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
 
@@ -230,6 +230,48 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 2025-12-04T18:17:14.246659593Z,p2_0002,r_b6ce45b9,T3_add,success,,4,200,on
 2025-12-04T18:17:35.687345494Z,p2_0002,r_b8dafcc1,T1_filter,success,,3,200,on
 2025-12-04T18:17:36.264263926Z,p2_0002,r_10b34a61,T1_filter,success,,3,200,on
+2025-12-04T18:47:41.725417720Z,p3_0003,r_62417e18,T4_delete,success,,3,200,on
+2025-12-04T18:47:42.476997443Z,p3_0003,r_3d7b80f8,T4_delete,success,,1,200,on
+2025-12-04T18:47:44.484932351Z,p3_0003,r_6231d721,T4_delete,success,,1,200,on
+2025-12-04T18:47:46.863322876Z,p3_0003,r_45a075f0,T4_delete,success,,1,200,on
+2025-12-04T18:47:52.115937882Z,p3_0003,r_fde62700,T1_filter,success,,0,200,off
+2025-12-04T18:47:54.025628258Z,p3_0003,r_5f805198,T0_list,success,,2,200,off
+2025-12-04T18:52:28.726787897Z,p3_0003,r_4efa4757,T3_add,success,,2,200,on
+2025-12-04T18:52:35.069748796Z,p3_0003,r_06b0702f,T3_add,success,,2,200,on
+2025-12-04T18:52:46.288770321Z,p3_0003,r_d4830892,T3_add,success,,2,200,on
+2025-12-04T18:53:03.657730909Z,p3_0003,r_d0f92037,T0_list,success,,4,200,off
+2025-12-04T18:55:05.121915506Z,p3_0003,r_1e062017,T4_delete,success,,1,200,on
+2025-12-04T18:56:41.089725369Z,p3_0003,r_767f571c,T4_delete,success,,1,200,on
+2025-12-04T18:56:43.158571088Z,p3_0003,r_8a36818b,T4_delete,success,,2,200,on
+2025-12-04T18:56:53.241143720Z,p3_0003,r_0b6820d9,T3_add,success,,4,200,on
+2025-12-04T18:56:57.720823052Z,p3_0003,r_273f6dd1,T3_add,success,,4,200,on
+2025-12-04T18:57:02.760660422Z,p3_0003,r_ff42068a,T3_add,success,,2,200,on
+2025-12-04T18:57:08.596242447Z,p3_0003,r_5024ca33,T3_add,success,,3,200,on
+2025-12-04T18:57:22.261753437Z,p3_0003,r_ecd5a8e0,T0_list,success,,4,200,off
+2025-12-04T18:58:22.436649987Z,p3_0003,r_1cb8f092,T1_filter,success,,2,200,on
+2025-12-04T18:58:32.652662937Z,p3_0003,r_90336a9a,T1_filter,success,,4,200,on
+2025-12-04T18:59:20.600998119Z,p3_0003,r_43b08857,T4_delete,success,,2,200,on
+2025-12-04T19:00:06.878915193Z,p3_0003,r_1533c439,T4_delete,success,,1,200,on
+2025-12-04T19:00:09.626874168Z,p3_0003,r_02fe21a4,T4_delete,success,,1,200,on
+2025-12-04T19:00:19.557745187Z,p3_0003,r_5409da8c,T4_delete,success,,1,200,on
+2025-12-04T19:00:39.942183764Z,p3_0003,r_5390a422,T3_add,success,,3,200,on
+2025-12-04T19:00:48.610380255Z,p3_0003,r_5736a0ff,T3_add,success,,3,200,on
+2025-12-04T19:01:04.284652228Z,p3_0003,r_16966b67,T3_add,success,,4,200,on
+2025-12-04T19:01:15.223935384Z,p3_0003,r_03145abd,T1_filter,success,,0,200,off
+2025-12-04T19:01:15.582511294Z,p3_0003,r_ed992f8c,T0_list,success,,3,200,off
+2025-12-04T19:03:04.598303457Z,p3_0003,r_08ceabf9,T3_add,success,,3,200,on
+2025-12-04T19:03:08.628485160Z,p3_0003,r_4df36481,T3_add,success,,4,200,on
+2025-12-04T19:03:14.642173429Z,p3_0003,r_df3767c7,T3_add,success,,4,200,on
+2025-12-04T19:03:18.264540068Z,p3_0003,r_1dd431a3,T3_add,success,,4,200,on
+2025-12-04T19:03:26.738994781Z,p3_0003,r_2e09d5bb,T3_add,success,,3,200,on
+2025-12-04T19:03:42.557765037Z,p3_0003,r_ac4e8c9c,T3_add,success,,3,200,on
+2025-12-04T19:03:49.231550021Z,p3_0003,r_ed1d8bd8,T3_add,success,,4,200,on
+2025-12-04T19:04:19.865332447Z,p3_0003,r_5020aca5,T1_filter,success,,6,200,on
+2025-12-04T19:04:21.744056891Z,p3_0003,r_bf26bf33,T1_filter,success,,3,200,on
+2025-12-04T19:04:24.115519769Z,p3_0003,r_427807a3,T1_filter,success,,2,200,on
+2025-12-04T19:04:25.927413245Z,p3_0003,r_48d75f72,T1_filter,success,,2,200,on
+2025-12-04T19:04:27.853733690Z,p3_0003,r_6b8f72d7,T1_filter,success,,2,200,on
+2025-12-04T19:04:30.270276006Z,p3_0003,r_1cd45609,T1_filter,success,,5,200,on
 
 ```
 
