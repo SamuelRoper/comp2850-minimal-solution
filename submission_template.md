@@ -130,8 +130,8 @@ because I am in a rush and do not want to check through each individual task.
 
 **Recorded consent timestamp**: \[e.g., "P1_0001 consented 04/12/2025 17:33"\]
 **Recorded consent timestamp**: \[e.g., "P2_0002 consented 04/12/2025 18:05"\]
-**Recorded consent timestamp**: \[e.g., "P3_0003 consented 22/11/2025 18:46"\]
-**Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
+**Recorded consent timestamp**: \[e.g., "P3_0003 consented 04/12/2025 18:46"\]
+**Recorded consent timestamp**: \[e.g., "P4_0004 consented 06/12/2025 16:43"\]
 **Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
 
 ------------------------------------------------------------------------
@@ -272,6 +272,54 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 2025-12-04T19:04:25.927413245Z,p3_0003,r_48d75f72,T1_filter,success,,2,200,on
 2025-12-04T19:04:27.853733690Z,p3_0003,r_6b8f72d7,T1_filter,success,,2,200,on
 2025-12-04T19:04:30.270276006Z,p3_0003,r_1cd45609,T1_filter,success,,5,200,on
+2025-12-06T16:41:41.429825134Z,p4_0004,r_ba600f93,T0_list,success,,64,200,off
+2025-12-06T16:43:45.785922795Z,p4_0004,r_90a98492,T0_list,success,,15,200,off
+2025-12-06T16:45:11.347130077Z,p4_0004,r_0d42ec21,T4_delete,success,,13,200,on
+2025-12-06T16:45:14.497163687Z,p4_0004,r_48d2724f,T4_delete,success,,14,200,on
+2025-12-06T16:45:18.810593355Z,p4_0004,r_17a244c8,T4_delete,success,,3,200,on
+2025-12-06T16:45:21.358696796Z,p4_0004,r_fe11ad3d,T4_delete,success,,5,200,on
+2025-12-06T16:45:23.336452411Z,p4_0004,r_4554ec33,T4_delete,success,,2,200,on
+2025-12-06T16:45:24.030616331Z,p4_0004,r_4d5c9960,T4_delete,success,,3,200,on
+2025-12-06T16:45:26.095743908Z,p4_0004,r_b4f8dcd7,T4_delete,success,,6,200,on
+2025-12-06T16:45:29.402574654Z,p4_0004,r_89d6d3b2,T4_delete,success,,2,200,on
+2025-12-06T16:45:29.958044097Z,p4_0004,r_5122e6c5,T4_delete,success,,4,200,on
+2025-12-06T16:45:30.089422965Z,p4_0004,r_9318cdf5,T1_filter,success,,4,200,on
+2025-12-06T16:45:32.620783612Z,p4_0004,r_f4103a29,T4_delete,success,,1,200,on
+2025-12-06T16:45:35.975304970Z,p4_0004,r_ff4d1867,T1_filter,success,,1,200,off
+2025-12-06T16:45:37.055084251Z,p4_0004,r_93dd5e14,T0_list,success,,6,200,off
+2025-12-06T16:46:09.273070804Z,p4_0004,r_3d903400,T3_add,success,,14,200,on
+2025-12-06T16:47:01.468750523Z,p4_0004,r_30dfe5f5,T3_add,success,,8,200,on
+2025-12-06T16:47:06.896989979Z,p4_0004,r_2cbb81a0,T3_add,success,,4,200,on
+2025-12-06T16:47:12.681234522Z,p4_0004,r_aa4ea468,T3_add,success,,5,200,on
+2025-12-06T16:47:17.252338069Z,p4_0004,r_0c51d1ff,T3_add,success,,6,200,on
+2025-12-06T16:47:25.089378692Z,p4_0004,r_b26c074f,T4_delete,success,,6,200,on
+2025-12-06T16:47:30.682961858Z,p4_0004,r_5add1e5c,T0_list,success,,8,200,off
+2025-12-06T16:51:33.460698414Z,p4_0004,r_cfe66824,T0_list,success,,9,200,off
+2025-12-06T16:54:00.710215418Z,p4_0004,r_c1663596,T4_delete,success,,2,200,on
+2025-12-06T16:54:02.476594717Z,p4_0004,r_4eb95549,T4_delete,success,,1,200,on
+2025-12-06T16:54:03.282278777Z,p4_0004,r_d13530b8,T4_delete,success,,2,200,on
+2025-12-06T16:54:06.223297934Z,p4_0004,r_2f4f2d9b,T4_delete,success,,2,200,on
+2025-12-06T16:54:25.478558456Z,p4_0004,r_b987fbaa,T3_add,success,,4,200,on
+2025-12-06T16:54:29.817078201Z,p4_0004,r_7b588dc9,T3_add,success,,5,200,on
+2025-12-06T16:54:38.361973315Z,p4_0004,r_a8e1e099,T3_add,success,,3,200,on
+2025-12-06T16:55:32.164638024Z,p4_0004,r_3f1b2b88,T0_list,success,,5,200,off
+2025-12-06T16:58:13.810808255Z,p4_0004,r_5908d66a,T4_delete,success,,2,200,on
+2025-12-06T16:59:02.027884813Z,p4_0004,r_7b0a0432,T4_delete,success,,1,200,on
+2025-12-06T17:00:08.671755521Z,p4_0004,r_7b675732,T4_delete,success,,1,200,on
+2025-12-06T17:00:23.916040150Z,p4_0004,r_0f67fa28,T3_add,success,,4,200,on
+2025-12-06T17:00:40.911341709Z,p4_0004,r_e41cfa8d,T3_add,success,,4,200,on
+2025-12-06T17:00:48.789190986Z,p4_0004,r_29352e12,T3_add,success,,4,200,on
+2025-12-06T17:01:43.622482025Z,p4_0004,r_ba968c15,T0_list,success,,4,200,off
+2025-12-06T17:04:38.812759839Z,p4_0004,r_02b3cd3c,T3_add,success,,4,200,on
+2025-12-06T17:04:45.774789428Z,p4_0004,r_7ef06341,T3_add,success,,4,200,on
+2025-12-06T17:04:49.457281049Z,p4_0004,r_08b5fd71,T3_add,success,,10,200,on
+2025-12-06T17:04:53.348723547Z,p4_0004,r_f2e115e5,T3_add,success,,7,200,on
+2025-12-06T17:04:58.018006693Z,p4_0004,r_8d928f59,T3_add,success,,5,200,on
+2025-12-06T17:05:05.613215398Z,p4_0004,r_62cbc061,T3_add,success,,13,200,on
+2025-12-06T17:05:11.902645062Z,p4_0004,r_68f51dc1,T3_add,success,,6,200,on
+2025-12-06T17:05:39.218187627Z,p4_0004,r_fe9f1434,T1_filter,success,,8,200,on
+2025-12-06T17:05:39.583781196Z,p4_0004,r_33c435a3,T1_filter,success,,4,200,on
+2025-12-06T17:05:54.755526071Z,p4_0004,r_d33e3ee6,T1_filter,success,,3,200,on
 
 ```
 
