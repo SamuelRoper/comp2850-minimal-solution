@@ -132,7 +132,7 @@ because I am in a rush and do not want to check through each individual task.
 **Recorded consent timestamp**: \[e.g., "P2_0002 consented 04/12/2025 18:05"\]
 **Recorded consent timestamp**: \[e.g., "P3_0003 consented 04/12/2025 18:46"\]
 **Recorded consent timestamp**: \[e.g., "P4_0004 consented 06/12/2025 16:43"\]
-**Recorded consent timestamp**: \[e.g., "P1 consented 22/11/2025 14:05"\]
+**Recorded consent timestamp**: \[e.g., "P5_0005 consented 06/12/2025 21:06"\]
 
 ------------------------------------------------------------------------
 
@@ -320,6 +320,48 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 2025-12-06T17:05:39.218187627Z,p4_0004,r_fe9f1434,T1_filter,success,,8,200,on
 2025-12-06T17:05:39.583781196Z,p4_0004,r_33c435a3,T1_filter,success,,4,200,on
 2025-12-06T17:05:54.755526071Z,p4_0004,r_d33e3ee6,T1_filter,success,,3,200,on
+2025-12-06T21:07:53.962808052Z,p5_0005,r_357fbeb8,T0_list,success,,274,200,off
+2025-12-06T21:09:02.721934453Z,p5_0005,r_bb3f8782,T3_add,success,,46,200,on
+2025-12-06T21:09:23.680681806Z,p5_0005,r_3d8e9c53,T4_delete,success,,8,200,on
+2025-12-06T21:09:31.707179040Z,p5_0005,r_bfe72100,T3_add,success,,8,200,on
+2025-12-06T21:09:37.852656709Z,p5_0005,r_25fef5c7,T3_add,success,,7,200,on
+2025-12-06T21:09:53.213624085Z,p5_0005,r_0a0438f7,T3_add,success,,10,200,on
+2025-12-06T21:11:13.673605138Z,p5_0005,r_a6697ef0,T4_delete,success,,2,200,on
+2025-12-06T21:12:40.756653197Z,p5_0005,r_98fd0ad5,T4_delete,success,,2,200,on
+2025-12-06T21:12:43.010809368Z,p5_0005,r_5b94c742,T4_delete,success,,4,200,on
+2025-12-06T21:12:53.010726519Z,p5_0005,r_7d73c494,T3_add,success,,6,200,on
+2025-12-06T21:12:58.311133017Z,p5_0005,r_951b9f68,T3_add,success,,7,200,on
+2025-12-06T21:13:05.897885464Z,p5_0005,r_ee24f7f3,T3_add,success,,9,200,on
+2025-12-06T21:13:12.213032932Z,p5_0005,r_7a95607c,T3_add,success,,8,200,on
+2025-12-06T21:13:18.358597371Z,p5_0005,r_5e936589,T0_list,success,,18,200,off
+2025-12-06T21:15:47.992405099Z,p5_0005,r_709342c0,T4_delete,success,,3,200,on
+2025-12-06T21:16:33.831169900Z,p5_0005,r_b1ea0146,T4_delete,success,,3,200,on
+2025-12-06T21:16:35.294859569Z,p5_0005,r_9526f2ef,T4_delete,success,,2,200,on
+2025-12-06T21:16:36.356429180Z,p5_0005,r_a7c44ebd,T4_delete,success,,2,200,on
+2025-12-06T21:17:10.596243485Z,p5_0005,r_f922ab73,T3_add,success,,5,200,on
+2025-12-06T21:17:18.048504415Z,p5_0005,r_19b19116,T3_add,success,,5,200,on
+2025-12-06T21:17:24.356557127Z,p5_0005,r_0b9eceda,T3_add,success,,17,200,on
+2025-12-06T21:19:19.512478385Z,p5_0005,r_cb7dce3d,T3_add,success,,6,200,on
+2025-12-06T21:19:24.677526826Z,p5_0005,r_cdfccca3,T3_add,success,,9,200,on
+2025-12-06T21:19:28.601441738Z,p5_0005,r_5af72137,T3_add,success,,8,200,on
+2025-12-06T21:19:31.164242384Z,p5_0005,r_b36865ca,T3_add,success,,11,200,on
+2025-12-06T21:19:36.793848233Z,p5_0005,r_2219c942,T3_add,success,,7,200,on
+2025-12-06T21:19:45.266662262Z,p5_0005,r_18a7a99e,T3_add,success,,8,200,on
+2025-12-06T21:19:49.957039124Z,p5_0005,r_cbf2ecaa,T3_add,success,,9,200,on
+2025-12-06T21:20:16.497428676Z,p5_0005,r_1c2eaf6f,T1_filter,success,,13,200,on
+2025-12-06T21:20:19.720199774Z,p5_0005,r_e076109e,T1_filter,success,,4,200,on
+2025-12-06T21:22:21.352663981Z,p5_0005,r_5be56630,T1_filter,success,,11,200,on
+2025-12-06T21:22:22.693899319Z,p5_0005,r_60dbaef2,T1_filter,success,,5,200,on
+2025-12-06T21:22:23.781753819Z,p5_0005,r_54f78c9f,T1_filter,success,,3,200,on
+2025-12-06T21:22:24.939186017Z,p5_0005,r_2f484782,T1_filter,success,,8,200,on
+2025-12-06T21:22:25.930247057Z,p5_0005,r_5230d244,T1_filter,success,,3,200,on
+2025-12-06T21:22:33.899563683Z,p5_0005,r_562a5c25,T1_filter,success,,4,200,on
+2025-12-06T21:22:33.968850542Z,p5_0005,r_823323ae,T1_filter,success,,6,200,on
+2025-12-06T21:22:35.748307896Z,p5_0005,r_b9b59386,T1_filter,success,,5,200,on
+2025-12-06T21:22:35.817575719Z,p5_0005,r_d80b2608,T1_filter,success,,9,200,on
+2025-12-06T21:23:03.060390930Z,p5_0005,r_43c484ed,T1_filter,success,,8,200,on
+2025-12-06T21:23:05.167476116Z,p5_0005,r_27ac7edd,T1_filter,success,,6,200,on
+2025-12-06T21:23:06.827333016Z,p5_0005,r_83392f97,T1_filter,success,,11,200,on
 
 ```
 
@@ -330,7 +372,7 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 -   **P3** (if applicable): \[Variant\]
 -   **P4** (if applicable): \[Variant\]
 
-**Total participants**: \[n=2, 3, or 4\]
+**Total participants**: n=5
 
 ------------------------------------------------------------------------
 
