@@ -387,25 +387,47 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 
 **Addresses finding**: Finding # 'User can't easily tell if filter has been applied' from table above
 
-**Before** (\[file path:line number\]):
+**Before** (src/main/resources/tasks/index.peb 60-82):
 
 ``` kotlin
-// ❌ Problem code
-[Paste your original code here]
+{# Search/Filter Tasks Form - Week 8 #}
+    <section aria-labelledby="search-heading">
+        <h2 id="search-heading">Filter Tasks</h2>
+
+        <form action="/tasks" method="get"
+              hx-get="/tasks/fragment"
+              hx-trigger="keyup changed delay:300ms from:#search-query, submit"
+              hx-target="#task-area"
+              hx-swap="innerHTML"
+              hx-push-url="true">
+
+            <label for="search-query">Filter by title</label>
+            <input type="search"
+                   id="search-query"
+                   name="q"
+                   placeholder="Type to filter..."
+                   aria-describedby="search-hint"
+                   value="{{ query | default('') }}">
+
+            <small id="search-hint">Filters tasks as you type; works without JavaScript.</small>
+            <button type="submit">Apply Filter</button>
+            <label for="search-query">Filtering {{ page.items|length }} out of {{ page.totalItems }} tasks by {{ query }}</label>
+        </form>
+    </section>
 ```
 
-**After** (\[file path:line number\]):
+**After** (src/main/resources/tasks/index.peb line 81):
 
 ``` kotlin
 // ✅ Fixed code
-[Paste your improved code here]
+<label for="search-query">Filtering {{ page.items|length }} out of {{ page.totalItems }} tasks by {{ query }}</label>
 ```
 
-**What changed**: \[1 sentence - what you added/removed/modified\]
+**What changed**: I added a new line of text that shows the user how many tasks are being filtered and by what query
 
-**Why**: \[1 sentence - which WCAG criterion or usability issue this fixes\]
+**Why**: This is to help show the user that the filter has been applied
 
-**Impact**: \[1-2 sentences - how this improves UX, who benefits\]
+**Impact**: Now whenever people use the filter and refresh the page, it will be obvious that the filter has worked, which can prevent confusion. It also means that a user can realise they have more tasks than what is being displayed on screen in their list.
 
 ------------------------------------------------------------------------
 

@@ -78,7 +78,7 @@
 
             <small id="search-hint">Filters tasks as you type; works without JavaScript.</small>
             <button type="submit">Apply Filter</button>
-            <label for="search-query">Filtering x tasks</label>
+            <label for="search-query">Filtering {{ page.items|length }} out of {{ page.totalItems }} tasks by {{ query }}</label>
         </form>
     </section>
 

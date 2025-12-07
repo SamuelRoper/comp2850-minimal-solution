@@ -68,6 +68,7 @@
                    value="{{ query | default('') }}">
 
             <button type="submit">Search</button>
+            <label for="search-query">Filtering {{ page.items|length }} out of {{ page.totalItems }} tasks by {{ query }}</label>
         </form>
     </section>
 
