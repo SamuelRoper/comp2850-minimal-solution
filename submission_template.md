@@ -143,11 +143,13 @@ because I am in a rush and do not want to check through each individual task.
 ::: table-wrapper
   Finding                   Data Source                                   Observation (Quote/Timestamp)       WCAG                 Impact (1-5)   Inclusion (1-5)   Effort (1-5)   Priority
   ------------------------- --------------------------------------------- ----------------------------------- -------------------- -------------- ----------------- -------------- -----------
-  SR errors not announced   metrics.csv L47-49 + P2 notes 14:23           P2: "I didn't hear any error"       3.3.1 Level A        5              5                 3              7
-  \[Your finding 2\]        \[Link to metrics.csv line OR pilot notes\]   \[Participant quote + timestamp\]   \[WCAG criterion\]   \[1-5\]        \[1-5\]           \[1-5\]        \[Score\]
-  \[Your finding 3\]                                                                                                                                                               
-  \[Your finding 4\]                                                                                                                                                               
-  \[Your finding 5\]                                                                                                                                                               
+  Purpose of web app unclear   p1_0001 notes 17:53           p1_0001: "Don't know what it's supposed to do"       2.1 Level AA        1              1                1               1
+  Unclear when buttons had worked        p2_0002 notes 18:19 + p3_0003 notes 19:05   p2_0002: "Buttons weren't very responsive and gave no indication they were working" + p3_0003: "Had to click save a couple of times"   2.1 Level AA   3        1         3        1
+  Could only scroll page with keyboard in one direction        p2_0002 notes 18:20        p2_0002: "When cycling with Tab, if you missed something you had to go all the way round"      2.1 level AA     3     3     4     2                                                                                                     
+  Easy to accidentally click delete after saving an edit      p3_0003 notes 19:06       p3_0003: "Mouse would hover over 'delete' after 'save' from editing"       2.1 level AA       2     1     3     0 
+  User can't see how many tasks they have         p5_0005: "Doesn't say how many tasks there are"              2.1 level AA           1               1               1               1
+  User can't easily tell if filter has been applied       p5_0005 notes 21:26       5_0005: "When I filtered the tasks I didn't actually know that it worked" + p5_0005: "If it said for example filtering 4 out of 10 tasks that would be nice"        2.1 level AA        3     1     1     3
+  When deleting a task, the screen reader read out the URL of the codespace       p5_0005 notes 21:25       p5_0005: "Screen reader should not read random crap, a bunch of random numbers is confusing"    2.1 level AA      4     3     5     2
 :::
 
 **Priority formula**: (Impact + Inclusion) - Effort
@@ -367,10 +369,11 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 
 **Participant summary**:
 
--   **P1**: \[Variant - e.g., "Standard mouse + HTMX"\]
--   **P2**: \[Variant - e.g., "Keyboard-only, HTMX-on"\]
--   **P3** (if applicable): \[Variant\]
--   **P4** (if applicable): \[Variant\]
+-   **p1_0001**: Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on
+-   **p2_0002**: Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on
+-   **p3_0003**: Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on
+-   **p4_0004**: Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on
+-   **p5_0005**: Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on
 
 **Total participants**: n=5
 
