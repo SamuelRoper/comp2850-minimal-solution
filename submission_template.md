@@ -156,9 +156,9 @@ because I am in a rush and do not want to check through each individual task.
 
 **Top 3 priorities for redesign**:
 
-1.  \[Finding #X - Priority score Y\]
-2.  \[Finding #X - Priority score Y\]
-3.  \[Finding #X - Priority score Y\]
+1.  Finding # User can't easily tell if filter has been applied - Priority score 3
+2.  Finding # When deleting a task, the screen reader read out the URL of the codespace - Priority score 2
+3.  Finding # Could only scroll page with keyboard in one direction - Priority score 2
 
 **How to complete this table** (decision tree):
 
