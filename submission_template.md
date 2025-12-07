@@ -128,11 +128,11 @@ because I am in a rush and do not want to check through each individual task.
 -   "I may take screenshots and notes. I'll remove any identifying information."
 -   "Do you consent to participate?" \[Wait for verbal yes\]
 
-**Recorded consent timestamp**: \[e.g., "P1_0001 consented 04/12/2025 17:33"\]
-**Recorded consent timestamp**: \[e.g., "P2_0002 consented 04/12/2025 18:05"\]
-**Recorded consent timestamp**: \[e.g., "P3_0003 consented 04/12/2025 18:46"\]
-**Recorded consent timestamp**: \[e.g., "P4_0004 consented 06/12/2025 16:43"\]
-**Recorded consent timestamp**: \[e.g., "P5_0005 consented 06/12/2025 21:06"\]
+**Recorded consent timestamp**: \[e.g., "p1_0001 consented 04/12/2025 17:33"\]
+**Recorded consent timestamp**: \[e.g., "p2_0002 consented 04/12/2025 18:05"\]
+**Recorded consent timestamp**: \[e.g., "p3_0003 consented 04/12/2025 18:46"\]
+**Recorded consent timestamp**: \[e.g., "p4_0004 consented 06/12/2025 16:43"\]
+**Recorded consent timestamp**: \[e.g., "p5_0005 consented 06/12/2025 21:06"\]
 
 ------------------------------------------------------------------------
 
