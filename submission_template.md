@@ -385,7 +385,7 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 
 ### [Fix 1: \[Fix Name\]](#fix-1-fix-name){.header}
 
-**Addresses finding**: \[Finding #X from table above\]
+**Addresses finding**: Finding # 'User can't easily tell if filter has been applied' from table above
 
 **Before** (\[file path:line number\]):
 
