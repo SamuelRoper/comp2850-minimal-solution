@@ -157,8 +157,10 @@ because I am in a rush and do not want to check through each individual task.
 **Top 3 priorities for redesign**:
 
 1.  Finding # User can't easily tell if filter has been applied - Priority score 3
-2.  Finding # When deleting a task, the screen reader read out the URL of the codespace - Priority score 2
+2.  Finding # Unclear when buttons had worked - Priority score 1
 3.  Finding # Could only scroll page with keyboard in one direction - Priority score 2
+
+For the finding [Finding # When deleting a task, the screen reader read out the URL of the codespace - Priority score 2] upon researching, I found it appears to be impossible as far as I can tell to make a button partially read out by a screen reader
 
 **How to complete this table** (decision tree):
 
@@ -383,13 +385,13 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 
 **Instructions**: Show before/after code for 1-3 fixes. Link each to findings table.
 
-### [Fix 1: \[Fix Name\]](#fix-1-fix-name){.header}
+### [Fix 1: Show how many filtered tasks](#fix-1-fix-name){.header}
 
 **Addresses finding**: Finding # 'User can't easily tell if filter has been applied' from table above
 
 **Before** (src/main/resources/tasks/index.peb 60-82):
 
-``` kotlin
+``` html
 {# Search/Filter Tasks Form - Week 8 #}
     <section aria-labelledby="search-heading">
         <h2 id="search-heading">Filter Tasks</h2>
@@ -418,9 +420,9 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 
 **After** (src/main/resources/tasks/index.peb line 81):
 
-``` kotlin
+``` html
 // ✅ Fixed code
-<label for="search-query">Filtering {{ page.items|length }} out of {{ page.totalItems }} tasks by {{ query }}</label>
+<p>Filtering {{ page.items|length }} out of {{ page.totalItems }} tasks by {{ query }}</p>
 ```
 
 **What changed**: I added a new line of text that shows the user how many tasks are being filtered and by what query
@@ -431,27 +433,44 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 
 ------------------------------------------------------------------------
 
-### [Fix 2: \[Fix Name\]](#fix-2-fix-name){.header}
+### [Fix 2: Make button response clearer](#fix-2-fix-name){.header}
 
-**Addresses finding**: \[Finding #X\]
+**Addresses finding**: Finding # Unclear when buttons had worked
 
 **Before**:
 
-``` kotlin
-[Original code]
+``` css
+/* Override Pico.css button color for WCAG 1.4.3 AA compliance */
+    button[type="submit"],
+    button {
+      color: white !important; /* White text on blue background for better contrast */
+    }
 ```
 
 **After**:
 
-``` kotlin
-[Fixed code]
+``` css
+/* Override Pico.css button color for WCAG 1.4.3 AA compliance */
+    button[type="submit"],
+    button {
+      color: white !important; /* White text on blue background for better contrast */
+    }
+    button:hover {
+      color: black !important;
+    }
+    button:focus {
+      color: black !important;
+    }
+    button:active {
+      background-color: #ffaa00 !important;
+    }
 ```
 
-**What changed**:
+**What changed**: When hovering over or selecting a button, its text goes black. Also when activating a button its background will go orange.
 
-**Why**:
+**Why**: This is to make it clearer to users which button they are on and if it has responded to their usage of it. Many of the people I studied appeared to struggle to recognise when a button had been clicked, or if it was unresponsive.
 
-**Impact**:
+**Impact**: This makes it far clearer when using buttons, especially for the visually impaired, where their mouse or focus is. The turning orange when being used is useful for everyone to show how responsive the buttons are.
 
 ------------------------------------------------------------------------
 

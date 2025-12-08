@@ -54,6 +54,15 @@
     button {
       color: white !important; /* White text on blue background for better contrast */
     }
+    button:hover {
+      color: black !important;
+    }
+    button:focus {
+      color: black !important;
+    }
+    button:active {
+      background-color: #ffaa00 !important;
+    }
   </style>
 </head>
 <body>
