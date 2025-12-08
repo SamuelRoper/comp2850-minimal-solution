@@ -480,7 +480,9 @@ ts_iso,session_id,request_id,task_code,step,outcome,ms,http_status,js_mode
 
 ------------------------------------------------------------------------
 
-\[Add Fix 3 if applicable\]
+Finding # Easy to accidentally click delete after saving an edit is incredibly low priority, as deleting a task creates an alert that you have to select to delete the task, so accidentally deleting a task is unlikely. Furthermore, it would be very difficult to change the location of the save button as I am unsure of where in the code I would need to change to swap the input text box anad the save button. It is also undesirable as the input text box appears right where the task was, which is very elegant.
+
+Overall I believe there is no demand for making such a change.
 
 ------------------------------------------------------------------------
 
