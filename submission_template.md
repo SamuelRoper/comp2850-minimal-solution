@@ -158,9 +158,15 @@ because I am in a rush and do not want to check through each individual task.
 
 1.  Finding # User can't easily tell if filter has been applied - Priority score 3
 2.  Finding # Unclear when buttons had worked - Priority score 1
-3.  Finding # Could only scroll page with keyboard in one direction - Priority score 2
+3.  Finding # Easy to accidentally click delete after saving an edit - Priority score 0
 
 For the finding [Finding # When deleting a task, the screen reader read out the URL of the codespace - Priority score 2] upon researching, I found it appears to be impossible as far as I can tell to make a button partially read out by a screen reader
+
+For the finding [Finding # Could only scroll page with keyboard in one direction - Priority score 2] after a quick search, I realised it was possible to navigate a webpage in the opposite direction with just shift + Tab
+
+For the finding [Finding # Purpose of web app unclear - Priority score 1] it dawned on me after the trials that the purpose of the web app is stated at the top of the page. Myself and p1_0001 appeared to miss this.
+
+For the finding [Finding # User can't see how many tasks they have - Priority score 1] I realised that this is stated at the top of the page. Myself and p5_0005 missed this. There is a slight issue with this however as it only shows how many tasks are displayed, instead of how many there are in total.
 
 **How to complete this table** (decision tree):
 
