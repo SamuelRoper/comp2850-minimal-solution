@@ -128,11 +128,18 @@ because I am in a rush and do not want to check through each individual task.
 -   "I may take screenshots and notes. I'll remove any identifying information."
 -   "Do you consent to participate?" \[Wait for verbal yes\]
 
+Pilot Study 1:
+
 **Recorded consent timestamp**: \[e.g., "p1_0001 consented 04/12/2025 17:33"\]
 **Recorded consent timestamp**: \[e.g., "p2_0002 consented 04/12/2025 18:05"\]
 **Recorded consent timestamp**: \[e.g., "p3_0003 consented 04/12/2025 18:46"\]
 **Recorded consent timestamp**: \[e.g., "p4_0004 consented 06/12/2025 16:43"\]
 **Recorded consent timestamp**: \[e.g., "p5_0005 consented 06/12/2025 21:06"\]
+
+Pilot study 2:
+
+**Recorded consent timestamp**: \[e.g., "p6_0006 consented 09/12/2025 17:33"\]
+**Recorded consent timestamp**: \[e.g., "p7_0007 consented 09/12/2025 18:05"\]
 
 ------------------------------------------------------------------------
 
@@ -568,18 +575,18 @@ Overall I believe there is no demand for making such a change.
 **Instructions**: Compare Week 9 baseline (pre-fix) to Week 10 (post-fix). Show improvement.
 
 ::: table-wrapper
-  Metric                    Before (Week 9, n=X)   After (Week 10, n=Y)   Change             Target Met?
+  Metric                    Before (Week 9, n=5)   After (Week 10, n=2)   Change             Target Met?
   ------------------------- ---------------------- ---------------------- ------------------ -------------
-  SR error detection        \[e.g., 0/2 (0%)\]     \[e.g., 2/2 (100%)\]   \[e.g., +100%\]    \[✅/❌\]
-  Validation error rate     \[e.g., 33%\]          \[e.g., 0%\]           \[e.g., -33%\]     \[✅/❌\]
-  Median time \[Task X\]    \[e.g., 1400ms\]       \[e.g., 1150ms\]       \[e.g., -250ms\]   \[✅/❌\]
-  WCAG \[criterion\] pass   \[fail\]               \[pass\]               \[--- \]           \[✅/❌\]
+  SR error detection          2/2 (100%)             2/2 (100%)             0%                 ✅
+  Validation error rate       0%                     0%                     0%                 ✅
+  Median time Task 2          13.62 seconds          \[e.g., 1150ms\]       \[e.g., -250ms\]   \[✅/❌\]
+  WCAG level 2.2 AA           pass                   pass                   ---                ✅
 :::
 
 **Re-pilot details**:
 
--   **P5** (post-fix): \[Variant - e.g., "Screen reader user, NVDA + keyboard"\] - \[Date piloted\]
--   **P6** (if applicable): \[Variant\] - \[Date\]
+-   **P5** (post-fix): Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on - \[Date piloted\]
+-   **P6** (post-fix): Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on - \[Date\]
 
 **Limitations / Honest reporting**: \[If metrics didn't improve or only modestly: explain why. Small sample size? Wrong fix? Needs more iteration? Be honest - valued over perfect results.\]
 
@@ -594,8 +601,10 @@ Overall I believe there is no demand for making such a change.
 ::: table-wrapper
   Filename                    What it shows                           Context/Link to finding
   --------------------------- --------------------------------------- --------------------------------------
-  before-sr-error.png         Error message without role="alert"      Finding #1 - SR errors not announced
-  after-sr-error.png          Error message WITH role="alert" added   Fix #1 verification
+  before fix <img src="/workspaces/comp2850-minimal-solution/1000007749.jpg">  Shows button doesn't have noticable change upon being clicked
+                                                                      Finding # Unclear when buttons had worked
+  after fix <img src="/workspaces/comp2850-minimal-solution/1000007748.jpg"> Shows button has noticable change upon being clicked
+                                                                      Finding # Unclear when buttons had worked
   regression-axe-report.png   axe DevTools showing 0 violations       Verification Part A
   \[your-screenshot-3.png\]   \[Description\]                         \[Which finding/fix this supports\]
 :::
