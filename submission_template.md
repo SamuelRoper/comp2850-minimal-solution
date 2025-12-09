@@ -4,12 +4,12 @@
 
 ## [Privacy & Ethics Statement](#privacy--ethics-statement){.header} {#privacy--ethics-statement}
 
--   I confirm all participant data is anonymous (session IDs use P1_xxxx format, not real names)
--   I confirm all screenshots are cropped/blurred to remove PII (no names, emails, student IDs visible)
--   I confirm all participants gave informed consent
--   I confirm this work is my own (AI tools used for code assistance are cited below)
+-   I confirm all participant data is anonymous (session IDs use P1_xxxx format, not real names), Yes
+-   I confirm all screenshots are cropped/blurred to remove PII (no names, emails, student IDs visible), Yes
+-   I confirm all participants gave informed consent, Yes
+-   I confirm this work is my own (AI tools used for code assistance are cited below), Yes
 
-**AI tools used** (if any): \[e.g., "Copilot for route handler boilerplate (lines 45-67 in diffs)"\]
+**AI tools used** (if any): None
 
 ------------------------------------------------------------------------
 
@@ -605,8 +605,7 @@ Overall I believe there is no demand for making such a change.
                                                                       Finding # Unclear when buttons had worked
   after fix <img src="/workspaces/comp2850-minimal-solution/1000007748.jpg"> Shows button has noticable change upon being clicked
                                                                       Finding # Unclear when buttons had worked
-  regression-axe-report.png   axe DevTools showing 0 violations       Verification Part A
-  \[your-screenshot-3.png\]   \[Description\]                         \[Which finding/fix this supports\]
+  axe-report <img src="/workspaces/comp2850-minimal-solution/Screenshot from 2025-12-09 22-57-11.png">  axe DevTools showing 0 violations   Verification Part A
 :::
 
 **PII check**:
@@ -738,18 +737,18 @@ Quotes:
 
 **Instructions**: Pick ONE finding and show complete evidence trail from data → fix → verification.
 
-**Finding selected**: \[e.g., "Finding #1 - SR errors not announced"\]
+**Finding selected**: Finding # Unclear when buttons had worked
 
 **Evidence trail**:
 
-1.  **Data**: metrics.csv lines 47-49 show P2 (SR user) triggered validation_error 3 times
-2.  **Observation**: P2 pilot notes timestamp 14:23 - Quote: "I don't know if it worked, didn't hear anything"
-3.  **Screenshot**: before-sr-error.png shows error message has no role="alert" or aria-live
-4.  **WCAG**: 3.3.1 Error Identification (Level A) violation - errors not programmatically announced
-5.  **Prioritisation**: findings-table.csv row 1 - Priority score 7 (Impact 5 + Inclusion 5 - Effort 3)
-6.  **Fix**: implementation-diffs.md Fix #1 - Added role="alert" + aria-live="assertive" to error span
-7.  **Verification**: verification.csv Part A row F2 - 3.3.1 now PASS (tested with NVDA)
-8.  **Before/after**: verification.csv Part B - SR error detection improved from 0% to 100%
+1.  **Data**: submission_template.md lines 290-295 show p3_0003 clicked 'Apply Filter' button 5 times in rapid succession
+2.  **Observation**: p2_0002 pilot notes timestamp 18:19 - Quote: "Buttons weren't very responsive and gave no indication they were working"
+3.  **Screenshot**: <img src="/workspaces/comp2850-minimal-solution/1000007748.jpg"> shows button shows little change upon being clicked
+4.  **WCAG**: N/A
+5.  **Prioritisation**: findings-table.csv row 2 - Priority score 1 (Impact 3 + Inclusion 1 - Effort 3)
+6.  **Fix**: implementation-diffs.md Fix #2: Make button response clearer
+7.  **Verification**: Median time task 2
+8.  **Before/after**: -??? seconds
 9.  **Re-pilot**: P5 (SR user) pilot notes - "Heard error announcement immediately, corrected and succeeded"
 
 **Complete chain**: Data → Observation → Interpretation → Fix → Verification ✅
