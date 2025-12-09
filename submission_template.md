@@ -146,7 +146,7 @@ because I am in a rush and do not want to check through each individual task.
   Purpose of web app unclear   p1_0001 notes 17:53           p1_0001: "Don't know what it's supposed to do"       2.1 Level AA        1              1                1               1
   Unclear when buttons had worked        p2_0002 notes 18:19 + p3_0003 notes 19:05   p2_0002: "Buttons weren't very responsive and gave no indication they were working" + p3_0003: "Had to click save a couple of times"   2.1 Level AA   3        1         3        1
   Could only scroll page with keyboard in one direction        p2_0002 notes 18:20        p2_0002: "When cycling with Tab, if you missed something you had to go all the way round"      2.1 level AA     3     3     4     2                                                                                                     
-  Easy to accidentally click delete after saving an edit      p3_0003 notes 19:06       p3_0003: "Mouse would hover over 'delete' after 'save' from editing"       2.1 level AA       2     1     3     0 
+  Easy to accidentally click delete after saving an edit      p3_0003 notes 19:05       p3_0003: "Mouse would hover over 'delete' after 'save' from editing"       2.1 level AA       2     1     3     0 
   User can't see how many tasks they have         p5_0005: "Doesn't say how many tasks there are"              2.1 level AA           1               1               1               1
   User can't easily tell if filter has been applied       p5_0005 notes 21:26       5_0005: "When I filtered the tasks I didn't actually know that it worked" + p5_0005: "If it said for example filtering 4 out of 10 tasks that would be nice"        2.1 level AA        3     1     1     3
   When deleting a task, the screen reader read out the URL of the codespace       p5_0005 notes 21:25       p5_0005: "Screen reader should not read random crap, a bunch of random numbers is confusing"    2.1 level AA      4     3     5     2
@@ -167,6 +167,10 @@ For the finding [Finding # Could only scroll page with keyboard in one direction
 For the finding [Finding # Purpose of web app unclear - Priority score 1] it dawned on me after the trials that the purpose of the web app is stated at the top of the page. Myself and p1_0001 appeared to miss this.
 
 For the finding [Finding # User can't see how many tasks they have - Priority score 1] I realised that this is stated at the top of the page. Myself and p5_0005 missed this. There is a slight issue with this however as it only shows how many tasks are displayed, instead of how many there are in total.
+
+Task 1 had a median completion time of 29.68 seconds, which is above the target.
+
+All other tasks had a median completion time below the target.
 
 **How to complete this table** (decision tree):
 
@@ -514,15 +518,15 @@ Overall I believe there is no demand for making such a change.
 +------------------+---------------------------------------+-------------+-------------------+----------------------------------------------------------------+
 | F2               | 3.3.1 Errors identified               | A           | pass              |  Errors have role=alert (FIXED in Fix #1)                      |
 +------------------+---------------------------------------+-------------+-------------------+----------------------------------------------------------------+
-| F3               | 4.1.2 Name/role/value                 | A           | pass             |  All form controls have accessible names                       |
+| F3               | 4.1.2 Name/role/value                 | A           | pass              |  All form controls have accessible names                       |
 +------------------+---------------------------------------+-------------+-------------------+----------------------------------------------------------------+
 | **Dynamic (3)**  |                                       |             |                   |                                                                |
 +------------------+---------------------------------------+-------------+-------------------+----------------------------------------------------------------+
-| D1               | 4.1.3 Status messages                 | AA          | \[pass/fail\]     | \[e.g., "Status div has role=status"\]                         |
+| D1               | 4.1.3 Status messages                 | AA          | pass              |  Status div has role=status                                    |
 +------------------+---------------------------------------+-------------+-------------------+----------------------------------------------------------------+
-| D2               | Live regions work                     | AA          | \[pass/fail\]     | \[e.g., "Tested with NVDA, announces 'Task added'"\]           |
+| D2               | Live regions work                     | AA          | fail              |  Tested with Orca, only works for deleting                     |
 +------------------+---------------------------------------+-------------+-------------------+----------------------------------------------------------------+
-| D3               | Focus management                      | A           | \[pass/fail\]     | \[e.g., "Focus moves to error summary after submit"\]          |
+| D3               | Focus management                      | A           | fail              | Focus does not move to error summary after submit              |
 +------------------+---------------------------------------+-------------+-------------------+----------------------------------------------------------------+
 | **No-JS (3)**    |                                       |             |                   |                                                                |
 +------------------+---------------------------------------+-------------+-------------------+----------------------------------------------------------------+
@@ -555,7 +559,7 @@ Overall I believe there is no demand for making such a change.
 +------------------+---------------------------------------+-------------+-------------------+----------------------------------------------------------------+
 :::
 
-**Summary**: \[X/20 pass\], \[Y/20 fail\] **Critical failures** (if any): N/A
+**Summary**: 16/20 pass, 4/20 fail **Critical failures** (if any): N/A
 
 ------------------------------------------------------------------------
 
@@ -608,17 +612,116 @@ Overall I believe there is no demand for making such a change.
 
 **Instructions**: Attach pilot notes as separate files (P1-notes.md, P2-notes.md, etc.). Summarize key observations here.
 
-**P1** (\[ Variant - e.g., "Standard mouse + HTMX"\]):
+**p1_0001** (Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on):
 
--   **Key observation 1**: \[Quote + timestamp - e.g., "Struggled with filter button (09:47)"\]
--   **Key observation 2**: \[Quote + timestamp\]
+-   **Key observation 1**: 'Blind users are going to struggle'()
+-   **Key observation 2**: 'I don't know what its supposed to do'()
 
-**P2** (\[Variant\]):
+**p2_0002** (Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on):
 
--   **Key observation 1**: \[Quote + timestamp\]
--   **Key observation 2**: \[Quote + timestamp\]
+-   **Key observation 1**: 'Buttons weren't very responsive and gave no indication they were working'()
+-   **Key observation 2**: 'When cycling with Tab, if you missed something you had to go all the way round, so a way to go up for example with the up arrow key would be much better'()
 
-\[Repeat for P3, P4 if applicable\]
+**p3_0003** (Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on):
+
+-   **Key observation 1**: 'Mouse would hover over 'delete' after 'save' from editing'()
+-   **Key observation 2**: 'Had to click save a couple times'()
+
+**p4_0004** (Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on):
+
+-   **Key observation 1**: 'I like the colour contrast, makes it easy to use, I like how it stands out'
+
+**p5_0005** (Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on):
+
+-   **Key observation 1**: 'Screen reader should not read random crap, a bunch of random numbers is confusing'
+-   **Key observation 2**: 'When I filtered the tasks I didn't actually know that it worked'
+
+
+Was unsure of how to attach pilot notes files, so they are below.
+
+p1_0001-notes:
+
+Consented: 04/12/2025 17:33
+Task 1: 17.33 seconds
+Task 2: 13.62 seconds
+Task 3: 204.39 seconds
+Task 4: 52.75 seconds
+Task 5: 8.57 seconds
+
+Quotes:
+
+'Blind Users are going to struggle', 17:52
+'[The web app was]Plain and simple', 17:52
+'I don't know what its supposed to do', 17:53
+'Tasks are clearly labelled', 17:53
+
+
+p2_0002-notes:
+
+Consented: 04/12/2025 18:05
+Task 1: 34.88 seconds
+Task 2: 11.23 seconds
+Task 3: 62.52 seconds
+Task 4: 45.00 seconds
+Task 5: 5.79 seconds
+
+Quotes:
+
+'Voice was terrible and hard to listen to', 18:19
+'Spoke too quickly and no pauses in between words', 18:19
+'Buttons weren't very responsive and gave no indication they were working', 18:19
+'When cycling with Tab, if you missed something you had to go all the way round, so a way to go up- for example with the up arrow key would be much better', 18:20
+
+
+p3_0003-notes:
+
+Consented: 04/12/2025 18:46
+Task 1: 180 seconds
+Task 2: 72.63 seconds
+Task 3: 72.43 seconds
+Task 4: 59.27 seconds
+Task 5: 10.29 seconds
+
+Quotes:
+
+'Mouse would hover over 'delete' after 'save' from editing', 19:05
+'Had to click save a couple times', 19:05
+'Once I figured it out it was pretty straight forward', 19:05
+'Quite confusing at first but get into rhythm of it quite quickly', 19:05
+
+
+p4_0004-notes:
+
+Consented: 06/12/2025 16:43
+Task 1: 29.68 seconds
+Task 2: 180 seconds
+Task 3: 170.00 seconds
+Task 4: 128.41 seconds
+Task 5: 14.58 seconds
+
+Quotes:
+
+'Straight forward', 17:07
+'I'm not that computer literate so it was hard to see what I was doing by just following the voice'( referring to task 3), 17:07
+'I like the colour contrast, makes it easy to use. I like how it stands out', 17:08
+'Easy to add and filter tasks', 17:08
+
+
+p5_0005-notes:
+
+Consented: 06/12/2025 21:06
+Task 1: 15.89 seconds
+Task 2: 12.80 seconds
+Task 3: 100.45 seconds
+Task 4: 49.15 seconds
+Task 5: 7.96 seconds
+
+Quotes:
+
+'Screen reader should not read random crap, a bunch of random numbers is confusing', 21:25
+'When I filtered the tasks I didn't actually know that it worked', 21:26
+'Doesn't say how many tasks there are', 21:26
+'If it said filtering 4 out of 10 tasks that would be good', 21:26
 
 ------------------------------------------------------------------------
 
