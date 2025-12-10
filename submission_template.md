@@ -1,4 +1,4 @@
-**Student**: Samuel J. Roper 201835172 **Submission date**: \[DD/MM/YYYY\] **Academic Year**: 2025-26
+**Student**: Samuel J. Roper 201835172 **Submission date**: 10/12/2025 **Academic Year**: 2025-26
 
 ------------------------------------------------------------------------
 
@@ -128,7 +128,7 @@ because I am in a rush and do not want to check through each individual task.
 -   "I may take screenshots and notes. I'll remove any identifying information."
 -   "Do you consent to participate?" \[Wait for verbal yes\]
 
-Pilot Study 1:
+Pilot Study:
 
 **Recorded consent timestamp**: \[e.g., "p1_0001 consented 04/12/2025 17:33"\]
 **Recorded consent timestamp**: \[e.g., "p2_0002 consented 04/12/2025 18:05"\]
@@ -136,10 +136,10 @@ Pilot Study 1:
 **Recorded consent timestamp**: \[e.g., "p4_0004 consented 06/12/2025 16:43"\]
 **Recorded consent timestamp**: \[e.g., "p5_0005 consented 06/12/2025 21:06"\]
 
-Pilot study 2:
+Re-pilot study:
 
-**Recorded consent timestamp**: \[e.g., "p6_0006 consented 09/12/2025 17:33"\]
-**Recorded consent timestamp**: \[e.g., "p7_0007 consented 09/12/2025 18:05"\]
+**Recorded consent timestamp**: \[e.g., "p6_0006 consented 10/12/2025 10:59"\]
+**Recorded consent timestamp**: \[e.g., "p7_0007 consented 10/12/2025 13:31"\]
 
 ------------------------------------------------------------------------
 
@@ -579,16 +579,16 @@ Overall I believe there is no demand for making such a change.
   ------------------------- ---------------------- ---------------------- ------------------ -------------
   SR error detection          2/2 (100%)             2/2 (100%)             0%                 ✅
   Validation error rate       0%                     0%                     0%                 ✅
-  Median time Task 2          13.62 seconds          \[e.g., 1150ms\]       \[e.g., -250ms\]   \[✅/❌\]
+  Median time Task 2          13.62 seconds          92.79                  +79.17 seconds     ❌
   WCAG level 2.2 AA           pass                   pass                   ---                ✅
 :::
 
 **Re-pilot details**:
 
--   **P5** (post-fix): Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on - \[Date piloted\]
--   **P6** (post-fix): Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on - \[Date\]
+-   **p6_0006** (post-fix): Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on - 10/12/2025
+-   **p7_0007** (post-fix): Task1 Keyboard-only JS on, Task2 impaired vision JS on, Task3 Blind Screenreader JS on, Task4 Standard Mouse and Keyboard JS on, Task5 Standard Mouse and Keyboard JS on - 10/12/2025
 
-**Limitations / Honest reporting**: \[If metrics didn't improve or only modestly: explain why. Small sample size? Wrong fix? Needs more iteration? Be honest - valued over perfect results.\]
+**Limitations / Honest reporting**: The Re-pilot had a smaller smaple size of 2 people, so the results cannot necessarily be trusted to be reflective of the typical user experience, being heavily skewed. Furthermore, the Re-pilots were both performed during daytime when it was bright, whereas the pilot study was performed at night when it was dark. This could have affected the vision of the people being studied.
 
 ------------------------------------------------------------------------
 
@@ -748,8 +748,8 @@ Quotes:
 5.  **Prioritisation**: findings-table.csv row 2 - Priority score 1 (Impact 3 + Inclusion 1 - Effort 3)
 6.  **Fix**: implementation-diffs.md Fix #2: Make button response clearer
 7.  **Verification**: Median time task 2
-8.  **Before/after**: -??? seconds
-9.  **Re-pilot**: P5 (SR user) pilot notes - "Heard error announcement immediately, corrected and succeeded"
+8.  **Before/after**: +79.17 seconds
+9.  **Re-pilot**: p7_0007 pilot notes - Participant could not find mouse, 'I can't see anything'
 
 **Complete chain**: Data → Observation → Interpretation → Fix → Verification ✅
 
